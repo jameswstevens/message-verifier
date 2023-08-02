@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Zk-Message Verification
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Given hashes (Poseidon) generated from a specific message and public keys, generate a proof to ensure the message is the same for all parties.
